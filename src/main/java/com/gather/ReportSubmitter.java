@@ -1,3 +1,19 @@
+/*
+ * Copyright 2024 DoreenDD
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+ * either express or implied. See the License for the specific
+ * language governing permissions and limitations under the License.
+ */
+
 package com.gather;
 
 import io.github.cdimascio.dotenv.Dotenv;
@@ -43,7 +59,7 @@ public class ReportSubmitter {
     private static final String USER_CODE = "abc8-ece8-acde-12de";
     private static final long TIMESTAMP = System.currentTimeMillis();
     private static final BigInteger[] SENSORS = {
-        new BigInteger("12"), new BigInteger("270"), new BigInteger("13"),
+        new BigInteger("0"), new BigInteger("200"), new BigInteger("50"),
         new BigInteger("633"), new BigInteger("633"), new BigInteger("71")
     };
     private static final BigInteger[] LOCATION = {

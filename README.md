@@ -183,4 +183,4 @@ address signer = ECDSA.recover(toEthSignedMessageHash(payloadHash), signature);
 
 ## License
 
-MIT License - see LICENSE file for details
+Apache-2.0 license - see LICENSE file for details
